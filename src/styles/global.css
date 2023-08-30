@@ -51,9 +51,7 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
 }
-.hamburger {
-    display: none;
-  }
+
   
 .nav-links a:hover,
 .nav-links a:focus {
@@ -77,5 +75,7 @@ h1 {
         display: inline-block;
         padding: 15px 20px;
     }
-
+    .hamburger {
+        display: none;
+      }
 }
