@@ -3,7 +3,7 @@ import rss, { pagesGlobToRssItems } from '@astrojs/rss';
 export async function GET() {
   return rss({
     title: 'Astro alumno | Blog',
-    description: 'Mi viaje de aprendizaje de Astro',
+    description: 'Mi viaje de aprendizaje de Astro6',
     site: 'https://my-blog-site.netlify.app',
     items: await pagesGlobToRssItems(import.meta.glob('./**/*.md')),
     customData: `<language>en-us</language>`,
